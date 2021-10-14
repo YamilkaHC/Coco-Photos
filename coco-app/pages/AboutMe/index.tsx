@@ -11,7 +11,7 @@ const AboutMe: any = () => {
               <h1 className="p-l title">Hello, </h1>
             </div>
             <div className="div-blue">
-              <h1 className="p-l title">I'm Ali Coco</h1>
+              <h1 className="p-l title">Im Ali Coco</h1>
             </div>
 
             <span className="paragraph p-l">

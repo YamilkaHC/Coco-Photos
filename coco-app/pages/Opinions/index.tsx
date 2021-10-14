@@ -32,7 +32,8 @@ const Opinions: any = () => {
 
         <div className="gallery-container">
           {users ? (
-            users.map((user) => {
+              /*@ts-ignore */
+            users.map((user, index: number) => {
               return (
                 <>
                   <div  className="opinion-container">

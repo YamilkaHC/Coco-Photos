@@ -31,7 +31,8 @@ const Gallery: any = () => {
 
         <div className="gallery-container">
           {photos ? (
-            photos.map((photo) => (
+            /*@ts-ignore */
+            photos.map((photo, key: number) => (
               <img width={300} height={370} alt="pepe" src={photo.src.large} />
             ))
           ) : (
